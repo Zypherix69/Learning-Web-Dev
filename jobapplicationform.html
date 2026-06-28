@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Junior Web Developer - Application Form</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+ 
+    .form-container {
+      background-color: white;
+      width: 500px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 10px;
+    }
+ 
+    h1 {
+      text-align: center;
+      color: #1a1a2e;
+      font-size: 26px;
+    }
+ 
+    .subtitle {
+      text-align: center;
+      color: #888888;
+      margin-top: -10px;
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+ 
+    label {
+      display: block;
+      font-weight: bold;
+      color: #2c2c2c;
+      margin-bottom: 6px;
+      margin-top: 18px;
+    }
+ 
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #28406d;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+    }
+ 
+    textarea {
+      resize: vertical;
+      height: 90px;
+    }
+ 
+    fieldset {
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      margin-top: 18px;
+      padding: 15px;
+    }
+ 
+    legend {
+      font-weight: bold;
+      color: #2c2c2c;
+      padding: 0 8px;
+    }
+ 
+    .radio-option {
+      margin-right: 20px;
+      font-size: 14px;
+    }
+ 
+    .submit-btn {
+      width: 100%;
+      background-color: #28406d;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 14px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 25px;
+      cursor: pointer;
+    }
+ 
+    .submit-btn:hover {
+      background-color: #1e2f50;
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="form-container">
+ 
+    <h1>Junior Web Developer Application</h1>
+    <p class="subtitle">Open to freelance and entry-level roles</p>
+ 
+    <form>
+ 
+      <label>Full Name:</label>
+      <input type="text" placeholder="e.g. Rishi Yadav" required>
+ 
+      <label>Email:</label>
+      <input type="email" placeholder="e.g. rishi@example.com" reqiured>
+ 
+      <label>City:</label>
+      <input type="text" placeholder="e.g. Jhapa, Nepal" required>
+ 
+      <label>Position you're applying for:</label>
+      <select>
+        <option>Select a position</option>
+        <option>Frontend Developer (HTML/CSS/JS)</option>
+        <option>Freelance Web Developer</option>
+        <option>Web Developer Intern</option>
+      </select>
+ 
+      <fieldset>
+        <legend>Availability:</legend>
+        <input type="radio" name="availability" id="parttime" checked>
+        <label for="parttime" class="radio-option" style="display:inline; margin:0;">Part-Time</label>
+ 
+        <input type="radio" name="availability" id="fulltime">
+        <label for="fulltime" class="radio-option" style="display:inline; margin:0;">Full-Time</label>
+      </fieldset>
+ 
+      <label>Why should we hire you?</label>
+      <textarea placeholder="I'm a BCA student currently learning HTML, CSS and JavaScript..."></textarea>
+ 
+      <button type="submit" class="submit-btn">Submit Application</button>
+ 
+    </form>
+ 
+  </div>
+ 
+</body>
+</html>

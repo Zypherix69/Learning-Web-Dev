@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>body { 
+      background-color: #1a1a2e;
+      font-family: Arial, sans-serif;
+      padding-top: 40px;
+      }
+
+  .blog-post-card {
+  background-color: #ffffff;
+  width: 320px;
+  margin: 0 auto;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0px, 10px, 25px, rgba(0, 0, 0, 0.4);
+  text-align: center;
+  }
+
+  .post-img { 
+  width: 100%;
+  display: block;
+  }
+
+  .post-content {
+  padding: 25px;
+  text-align: center;
+  }
+
+.flag-tag {
+  display: inline-block;
+  background-color: #28406d;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 12px;
+  border-radius: 20px;
+  letter-spacing: 1px; 
+  margin-bottom: 12px;
+}
+
+h2 {
+  color: #1a1a2e;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.post-excerpt {
+  color: #6a6a6a;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  background-color: #28406d;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 6px 14px rgba(40, 64, 109, 0.4);
+}
+
+.read-more:hover {
+  background-color: #1e2f50;
+     }</style>
+    <title>Blog Post Card</title>
+    <script>
+        function showpopup() {
+            alert("Normally this button would take you to the full blog post!");
+        }
+    </script>
+</head>
+<body>
+  <div class="blog-post-card">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.62tA2xqhPGqMZIq5hg_iAgHaED?rs=1&pid=ImgDetMain&o=7&rm=3" alt="scrabble tiles arranged to spell LANGUAGE" class="post-img">
+    <div class="post-content">
+        <span class="flag-tag">  🇫🇷 LANGUAGE GOALS</span>
+      <h2 class="post-title">Why I'm Learning French</h2>
+      <p class="post-excerpt">I picked French because it lines up with my goals goal of settling in
+        Europe one day. Here's why it made the most sense for me, and how
+        I'm getting started.</p>
+        <a class="read-more" href="#" onclick="showpopup();" return false;>Read More</a>
+    </div>
+  </div>
+</body>
+</html>
